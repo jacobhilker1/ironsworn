@@ -1,0 +1,103 @@
+body {
+  font-family: 'Merriweather', serif; 
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: rgba(102, 102, 102, 1);
+}
+nav {
+  background-color: #52767D;
+  color: white;
+  display: flex;
+  text-align: center;
+  padding: 0.25em;
+}
+nav a {
+    color: white !important;
+    flex: 1;
+    text-transform: uppercase;
+}
+.swipeView {
+  display: grid;
+  grid-template-columns: repeat(34, 100%);
+  will-change: transform;
+  align-content: center;
+  overflow-x: auto;
+  /*scroll-snap-coordinate: 0 0;
+  scroll-snap-points-x: repeat(100%);*/
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+article {
+  border: 1px solid;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin: 0.25em;
+  scroll-snap-align: center; 
+  scroll-snap-stop: always;
+}
+
+article header {
+  background-color: black;
+}  
+
+article header, section {
+    padding: 0.5em 1em;
+}
+
+article span {
+    white-space: nowrap;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'Domine', serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+li {
+  font-size: 0.5em;
+}
+
+table {
+	font-size: 1.5em;
+}
+
+article a {
+  font-style: italic;
+  white-space: nowrap;  
+}
+
+article a:hover {
+	color: #52767D !important;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: whitesmoke;
+}
+
+table:not(.oracle) tbody td:first-of-type {
+	text-align: center;
+}
+
+tbody td:first-of-type {
+	white-space: nowrap;	
+}
+
+td {
+	padding: 0.25em;
+}
+
+footer {
+  color: rgba(102, 102, 102, 1);
+  padding: 1em;
+}
