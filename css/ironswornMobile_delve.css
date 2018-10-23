@@ -1,0 +1,3 @@
+.swipeView {
+  grid-template-columns: repeat(6, 100%);
+}
