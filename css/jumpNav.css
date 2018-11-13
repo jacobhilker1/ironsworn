@@ -3,7 +3,7 @@ nav {
 	text-align:center;
 	width:100%;
 	position:absolute;
-	height: 100px;
+	height: 10em;
 	overflow:hidden;
 	background:none;
 }
@@ -16,7 +16,10 @@ nav .button {
     font-size: 5em;
 }
 nav .button a {
-	text-decoration:none;
+    position: absolute;
+    right: 0em;
+    text-decoration:none;
+    top: 0.25em;
 }
 .btn-open:after {
 	color:white;
