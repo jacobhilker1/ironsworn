@@ -2,8 +2,8 @@ nav {
 	display: block;
 	text-align:center;
 	width:100%;
-	position:relative;
-	height: 50px;
+	position:absolute;
+	height: 100px;
 	overflow:hidden;
 	background:none;
 }
@@ -29,7 +29,7 @@ nav .button {
 	text-decoration:none;
 }
 .btn-open:after {
-	color:grey;
+	color:white;
 	content:"\f0c9";
 	font-family:"FontAwesome";
 	padding: 0.25em;
