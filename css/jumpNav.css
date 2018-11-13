@@ -72,7 +72,9 @@ nav .button a {
 	vertical-align:top;	
 }
 .wrap ul.wrap-nav li a {
+	color: white;
 	display:block;
+	font-size: 5em;
 	padding:8px 0;
 	text-decoration:none;
 	transition-property:all .2s linear 0s;
