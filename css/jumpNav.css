@@ -29,11 +29,10 @@ nav .button {
 	text-decoration:none;
 }
 .btn-open:after {
-	background-color: grey;
-	border-radius: 1em;
-	color:white;
+	color:grey;
 	content:"\f0c9";
 	font-family:"FontAwesome";
+	padding: 0.25em;
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
