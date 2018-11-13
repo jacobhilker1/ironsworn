@@ -8,21 +8,22 @@
   <meta name="description" content="Convenient Move Reference Cards for the Ironsworn RPG">
 
   <!-- Place favicon.ico in the root directory -->
-
+  <script src="js/nav.js"></script>
   <link rel="stylesheet" href="css/ironswornMobile.css">
   <link rel="stylesheet" href="css/jumpNav.css">	
 	
 </head>
 
 <body>
-
-<nav class="main-nav">
-  <input id="nav-checkbox" class="checkbox" type="checkbox">
-  <label for="nav-checkbox" class="button">
-    <span class="burger"></span>
-  </label>
-  <div class="nav-lists">
-    <ul>
+	
+<nav>
+<div class="button">
+	<a class="btn-open" href="#"></a>
+</div>
+</nav>
+<div class="overlay">
+	<div class="wrap">
+		<ul class="wrap-nav">
       <li><a href="#AdventureMoves">Adventure</a></li>
       <li><a href="#RelationshipMoves">Relationship</a></li>
       <li><a href="#CombatMoves">Combat</a></li>
@@ -31,7 +32,8 @@
       <li><a href="#FateMoves">Fate</a></li>
     </ul>
   </div>
-</nav>
+</div>
+	
 <div class="swipeView">
   <article id="FaceDanger">
     <header id="AdventureMoves">
