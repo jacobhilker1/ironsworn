@@ -13,7 +13,7 @@ nav .button {
     right: 50px;
     top: 6px;
     z-index: 999;
-    font-size: 30px;
+    font-size: 5em;
 }
 nav .button a {
 	text-decoration:none;
