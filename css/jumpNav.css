@@ -9,11 +9,12 @@ nav {
 }
 nav .button {
     display: inline;
+    font-size: 5em;	
     position: absolute;
     right: 50px;
     top: 6px;
     z-index: 999;
-    font-size: 5em;
+    width: 1.5em;
 }
 nav .button a {
     position: absolute;
